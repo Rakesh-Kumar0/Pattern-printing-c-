@@ -2,7 +2,10 @@
 using namespace std;
 
 void print(int n){
+    // outer loop is for rows
     for(int i=1; i<=n; i++){
+
+        // inner loop is for columns
         for(int j=1; j<=(n-i+1); j++){
             cout<<j <<" ";
         }
