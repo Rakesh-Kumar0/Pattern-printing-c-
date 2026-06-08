@@ -18,7 +18,7 @@ void print(int n){
         space += 2;
     }
 
-    space = 8;
+    space = 2 * n -2;
     for(int i=1; i<=n; i++){
         for(int j=1; j<=i; j++){
             cout<<"*";
